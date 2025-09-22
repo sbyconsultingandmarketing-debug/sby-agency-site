@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>SBY Agency — Luxury. Strategy. Style.</title>
+  <title>SBY Agency — Building Presence. Driving Growth.</title>
 
   <!-- Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -71,16 +71,6 @@
 
     /* Uniform media frames */
     .frame { background: #fff; border-radius: 1.25rem; box-shadow: var(--shadow, 0 8px 24px rgba(0,0,0,.06)); }
-    .media {
-      border-radius: 0.875rem; overflow: hidden; position: relative;
-      background: linear-gradient(130deg, #FCFBF9 0%, #F9E6EB 50%, #FFFFFF 100%);
-    }
-    .media::after {
-      /* Inner border for editorial polish */
-      content: ""; position: absolute; inset: 0; border-radius: 0.875rem;
-      box-shadow: inset 0 0 0 1px rgba(0,0,0,0.05);
-      pointer-events: none;
-    }
 
     /* Hero dots */
     .dot { height: 6px; width: 24px; border-radius: 999px; background: #d4d4d4; transition: background .3s ease; }
@@ -107,17 +97,14 @@
         </div>
         <div class="leading-tight">
           <div class="font-display text-xl tracking-wide">SBY Agency</div>
-          <div class="text-[10px] uppercase tracking-[0.22em] text-neutral-500">Luxury • Strategy • Style</div>
+          <div class="text-[10px] uppercase tracking-[0.22em] text-neutral-500">Building Presence • Driving Growth</div>
         </div>
       </a>
       <nav class="hidden md:flex items-center gap-7 text-sm">
         <a href="#home" class="hover:text-hotpink">Home</a>
         <a href="#about" class="hover:text-hotpink">About</a>
-        <a href="#team" class="hover:text-hotpink">Team</a>
         <a href="#services" class="hover:text-hotpink">Services</a>
-        <a href="#portfolio" class="hover:text-hotpink">Portfolio</a>
         <a href="#clients" class="hover:text-hotpink">Clients</a>
-        <a href="#events" class="hover:text-hotpink">Events</a>
         <a href="#contact" class="hover:text-hotpink">Contact</a>
       </nav>
       <button id="ctaConsult" class="hidden sm:inline-flex items-center gap-2 bg-hotpinkgrad text-white px-5 py-2.5 rounded-full shadow-glow hover:scale-[1.02] active:scale-[0.99] transition-transform">
@@ -134,18 +121,15 @@
       <nav class="container py-4 flex flex-col gap-3 text-sm bg-white/90 backdrop-blur-sm">
         <a href="#home" class="py-2 hover:text-hotpink">Home</a>
         <a href="#about" class="py-2 hover:text-hotpink">About</a>
-        <a href="#team" class="py-2 hover:text-hotpink">Team</a>
         <a href="#services" class="py-2 hover:text-hotpink">Services</a>
-        <a href="#portfolio" class="py-2 hover:text-hotpink">Portfolio</a>
         <a href="#clients" class="py-2 hover:text-hotpink">Clients</a>
-        <a href="#events" class="py-2 hover:text-hotpink">Events</a>
         <a href="#contact" class="py-2 hover:text-hotpink">Contact</a>
         <button id="ctaConsultM" class="mt-2 inline-flex items-center justify-center gap-2 bg-hotpinkgrad text-white px-5 py-2.5 rounded-full shadow-glow">Work With Us</button>
       </nav>
     </div>
   </header>
 
-  <!-- HERO: Calm, centered, readable -->
+  <!-- HERO: Clean and professional -->
   <section id="home" class="relative min-h-[90vh] overflow-hidden">
     <!-- Slides (fades only, no parallax) -->
     <div id="heroSlides" class="absolute inset-0">
@@ -165,13 +149,13 @@
 
     <!-- Copy -->
     <div class="relative z-10 h-full flex items-center justify-center text-center px-6">
-      <div class="max-w-3xl">
-        <div class="font-script text-3xl md:text-4xl text-neutral-600 mb-3">Luxury. Strategy. Style.</div>
+      <div class="max-w-4xl">
+        <div class="font-script text-3xl md:text-4xl text-neutral-600 mb-3">Building Presence. Driving Growth.</div>
         <h1 class="font-display title-depth text-4xl md:text-6xl leading-[1.1] tracking-tight">
-          <span class="align-middle mr-2">👉</span>Building Presence. <span class="gold-text">Driving Growth.</span>
+          <span class="gold-text">Polished.</span> Strategic. <span class="gold-text">Unforgettable.</span>
         </h1>
-        <p class="mt-5 text-neutral-700 md:text-lg leading-relaxed">
-          SBY Agency is a multifaceted PR and Creative Agency blending luxury styling, modern branding, and strategic campaigns to help brands inspire, connect, and sell.
+        <p class="mt-6 text-neutral-700 md:text-lg leading-relaxed max-w-2xl mx-auto">
+          Luxury branding, styling, creative campaigns, and PR designed to elevate brands with strategy and style. We position clients at the intersection of style and strategy, creating modern, elevated brand identities that stand out in competitive industries.
         </p>
         <div class="mt-8 flex flex-wrap gap-3 justify-center">
           <a href="#services" class="inline-flex items-center gap-3 bg-hotpinkgrad text-white px-6 py-3 rounded-full shadow-glow hover:translate-y-[-1px] transition-transform">Explore Services
@@ -195,48 +179,32 @@
     <div class="container">
       <div class="text-center max-w-3xl mx-auto">
         <h2 class="font-display text-3xl md:text-4xl tracking-tight title-depth">Our Services</h2>
-        <p class="text-neutral-600 mt-3">Clear, results-driven offerings—delivered with editorial polish.</p>
+        <p class="text-neutral-600 mt-3">Clear, results-driven offerings delivered with editorial polish.</p>
       </div>
 
-      <div class="mt-12 grid md:grid-cols-3 gap-6">
+      <div class="mt-12 grid md:grid-cols-3 gap-8">
         <!-- Service 1 -->
-        <article class="frame p-6 ring-1 ring-neutral-200 bg-white reveal">
+        <article class="frame p-8 ring-1 ring-neutral-200 bg-white reveal">
           <div class="text-xs uppercase tracking-[0.25em] text-neutral-500">Marketing</div>
-          <h3 class="font-serif font-semibold text-xl mt-2">Consulting & Campaigns</h3>
-          <p class="text-neutral-600 mt-3">Authority-building strategies with style.</p>
-          <ul class="mt-4 space-y-2 text-sm text-neutral-700">
-            <li>Social Strategy & Management</li>
-            <li>Editorial Photo & Video</li>
-            <li>PR: Launches, Seeding, Partnerships</li>
-            <li>Campaign Direction</li>
-          </ul>
-          <button class="mt-5 inline-flex items-center gap-2 text-hotpink link-underline" onclick="scrollToContact('Marketing & Campaigns')">Book Strategy Call →</button>
+          <h3 class="font-serif font-semibold text-2xl mt-3">Consulting & Campaign Management</h3>
+          <p class="text-neutral-600 mt-4 leading-relaxed">We develop strategies that position brands with authority and style. From social media management to launch campaigns, we create content that converts and campaigns that captivate.</p>
+          <button class="mt-6 inline-flex items-center gap-2 text-hotpink link-underline font-medium" onclick="scrollToContact('Marketing & Campaigns')">Book Strategy Call</button>
         </article>
+        
         <!-- Service 2 -->
-        <article class="frame p-6 ring-1 ring-neutral-200 bg-white reveal">
+        <article class="frame p-8 ring-1 ring-neutral-200 bg-white reveal">
           <div class="text-xs uppercase tracking-[0.25em] text-neutral-500">Fashion</div>
-          <h3 class="font-serif font-semibold text-xl mt-2">Styling & Showroom</h3>
-          <p class="text-neutral-600 mt-3">Editorial polish for every look.</p>
-          <ul class="mt-4 space-y-2 text-sm text-neutral-700">
-            <li>Wardrobe & Red Carpet</li>
-            <li>Showroom Rentals</li>
-            <li>Custom Collaborations</li>
-            <li>Portfolio Curation</li>
-          </ul>
-          <button class="mt-5 inline-flex items-center gap-2 text-hotpink link-underline" onclick="scrollToContact('Fashion Styling & Showroom')">Discuss Styling →</button>
+          <h3 class="font-serif font-semibold text-2xl mt-3">Styling & Showroom Rentals</h3>
+          <p class="text-neutral-600 mt-4 leading-relaxed">With almost 10 years of wardrobe styling and creative direction, we bring editorial polish to every project. From red carpet looks to custom collaborations, we create visual stories that resonate.</p>
+          <button class="mt-6 inline-flex items-center gap-2 text-hotpink link-underline font-medium" onclick="scrollToContact('Fashion Styling & Showroom')">Discuss Styling</button>
         </article>
+        
         <!-- Service 3 -->
-        <article class="frame p-6 ring-1 ring-neutral-200 bg-white reveal">
+        <article class="frame p-8 ring-1 ring-neutral-200 bg-white reveal">
           <div class="text-xs uppercase tracking-[0.25em] text-neutral-500">Experiences</div>
-          <h3 class="font-serif font-semibold text-xl mt-2">Brand & Events</h3>
-          <p class="text-neutral-600 mt-3">Unforgettable, elevated moments.</p>
-          <ul class="mt-4 space-y-2 text-sm text-neutral-700">
-            <li>Event Production & Activations</li>
-            <li>Launch Campaigns</li>
-            <li>Influencer Engagement</li>
-            <li>Custom Brand Moments</li>
-          </ul>
-          <button class="mt-5 inline-flex items-center gap-2 text-hotpink link-underline" onclick="scrollToContact('Events & Brand Experiences')">Plan an Activation →</button>
+          <h3 class="font-serif font-semibold text-2xl mt-3">Brand Positioning & Event Curation</h3>
+          <p class="text-neutral-600 mt-4 leading-relaxed">We create unforgettable experiences that embody luxury and strategy. From intimate influencer dinners to large-scale brand activations, every event is designed to showcase brands in elevated, memorable ways.</p>
+          <button class="mt-6 inline-flex items-center gap-2 text-hotpink link-underline font-medium" onclick="scrollToContact('Events & Brand Experiences')">Plan an Activation</button>
         </article>
       </div>
     </div>
@@ -245,113 +213,20 @@
   <!-- ABOUT -->
   <section id="about" class="py-20 md:py-28">
     <div class="container">
-      <div class="grid lg:grid-cols-12 gap-8 items-center">
-        <div class="lg:col-span-6 reveal">
-          <h2 class="font-display text-3xl md:text-4xl tracking-tight">About SBY Agency</h2>
-          <p class="text-neutral-700 mt-4">We blend fashion-world polish with business-savvy strategy. From editorial campaigns to launch moments, we build brands that inspire, connect, and sell.</p>
-          <div class="mt-6 frame p-6 ring-1 ring-neutral-200 bg-white">
-            <div class="font-serif font-semibold">Our Mission</div>
-            <p class="text-neutral-600 mt-2">Elevate presence with modern luxury. Every touchpoint—intentional. Every moment—memorable.</p>
+      <div class="max-w-4xl mx-auto text-center">
+        <h2 class="font-display text-3xl md:text-4xl tracking-tight">About SBY Agency</h2>
+        <p class="text-neutral-700 mt-6 text-lg leading-relaxed">With almost 10 years of experience in fashion styling, brand consulting, and campaign strategy, SBY Agency positions clients at the intersection of style and strategy. We create modern, elevated brand identities that stand out in competitive industries — from fashion and lifestyle to start-ups and global campaigns.</p>
+        
+        <div class="mt-12 grid md:grid-cols-2 gap-8 text-left">
+          <div class="frame p-8 ring-1 ring-neutral-200 bg-white">
+            <div class="font-serif font-semibold text-xl">Our Mission</div>
+            <p class="text-neutral-600 mt-3 leading-relaxed">Elevate presence with modern luxury. Every touchpoint intentional. Every moment memorable. We believe that exceptional branding combines strategic thinking with impeccable style.</p>
+          </div>
+          <div class="frame p-8 ring-1 ring-neutral-200 bg-white">
+            <div class="font-serif font-semibold text-xl">Our Approach</div>
+            <p class="text-neutral-600 mt-3 leading-relaxed">We blend fashion-world polish with business-savvy strategy. From editorial campaigns to launch moments, we build brands that inspire, connect, and drive measurable results.</p>
           </div>
         </div>
-        <div class="lg:col-span-6 reveal">
-          <div class="frame p-4 ring-1 ring-neutral-200 bg-white">
-            <div class="media aspect-[4/3]"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- TEAM -->
-  <section id="team" class="py-20 md:py-28 bg-white">
-    <div class="container">
-      <div class="text-center max-w-3xl mx-auto">
-        <h2 class="font-display text-3xl md:text-4xl tracking-tight title-depth">Meet the Team</h2>
-        <p class="text-neutral-600 mt-3">Editorial bios. Strategic thinkers.</p>
-      </div>
-
-      <div class="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        <!-- Person 1 -->
-        <article class="frame p-4 ring-1 ring-neutral-200 bg-white reveal">
-          <div class="media aspect-[4/5]"></div>
-          <div class="mt-4">
-            <div class="font-serif font-semibold">Yvonne — Founder & Creative Director</div>
-            <p class="text-sm text-neutral-600 mt-1">Luxury styling and creative direction across editorials, red carpets, and campaigns.</p>
-          </div>
-        </article>
-        <!-- Person 2 -->
-        <article class="frame p-4 ring-1 ring-neutral-200 bg-white reveal">
-          <div class="media aspect-[4/5]"></div>
-          <div class="mt-4">
-            <div class="font-serif font-semibold">Senior Strategist</div>
-            <p class="text-sm text-neutral-600 mt-1">Brand positioning, GTM plans, and partnerships.</p>
-          </div>
-        </article>
-        <!-- Person 3 -->
-        <article class="frame p-4 ring-1 ring-neutral-200 bg-white reveal">
-          <div class="media aspect-[4/5]"></div>
-          <div class="mt-4">
-            <div class="font-serif font-semibold">Events Producer</div>
-            <p class="text-sm text-neutral-600 mt-1">From intimate dinners to large-scale activations.</p>
-          </div>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- PORTFOLIO: clean, uniform grid -->
-  <section id="portfolio" class="py-20 md:py-28">
-    <div class="container">
-      <div class="text-center max-w-3xl mx-auto">
-        <h2 class="font-display text-3xl md:text-4xl tracking-tight">Portfolio</h2>
-        <p class="text-neutral-600 mt-3">Editorial campaigns, styling, and brand activations.</p>
-      </div>
-
-      <div class="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        <!-- Six uniform cards -->
-        <article class="frame p-4 ring-1 ring-neutral-200 bg-white reveal">
-          <div class="media aspect-[4/5]"></div>
-          <div class="mt-3">
-            <div class="font-serif font-semibold">Editorial 1</div>
-            <div class="text-xs text-neutral-600">Creative direction + styling</div>
-          </div>
-        </article>
-        <article class="frame p-4 ring-1 ring-neutral-200 bg-white reveal">
-          <div class="media aspect-[4/5]"></div>
-          <div class="mt-3">
-            <div class="font-serif font-semibold">Editorial 2</div>
-            <div class="text-xs text-neutral-600">Launch activation + PR</div>
-          </div>
-        </article>
-        <article class="frame p-4 ring-1 ring-neutral-200 bg-white reveal">
-          <div class="media aspect-[4/5]"></div>
-          <div class="mt-3">
-            <div class="font-serif font-semibold">Editorial 3</div>
-            <div class="text-xs text-neutral-600">Red carpet styling</div>
-          </div>
-        </article>
-        <article class="frame p-4 ring-1 ring-neutral-200 bg-white reveal">
-          <div class="media aspect-[4/5]"></div>
-          <div class="mt-3">
-            <div class="font-serif font-semibold">Editorial 4</div>
-            <div class="text-xs text-neutral-600">Lookbook curation</div>
-          </div>
-        </article>
-        <article class="frame p-4 ring-1 ring-neutral-200 bg-white reveal">
-          <div class="media aspect-[4/5]"></div>
-          <div class="mt-3">
-            <div class="font-serif font-semibold">Editorial 5</div>
-            <div class="text-xs text-neutral-600">Influencer campaign</div>
-          </div>
-        </article>
-        <article class="frame p-4 ring-1 ring-neutral-200 bg-white reveal">
-          <div class="media aspect-[4/5]"></div>
-          <div class="mt-3">
-            <div class="font-serif font-semibold">Editorial 6</div>
-            <div class="text-xs text-neutral-600">Brand activation</div>
-          </div>
-        </article>
       </div>
     </div>
   </section>
@@ -359,98 +234,78 @@
   <!-- CLIENTS & TESTIMONIALS -->
   <section id="clients" class="py-20 md:py-28 bg-white">
     <div class="container">
-      <div class="grid lg:grid-cols-12 gap-8 items-start">
-        <div class="lg:col-span-5">
-          <h2 class="font-display text-3xl md:text-4xl tracking-tight">Clients & Partners</h2>
-          <p class="text-neutral-600 mt-3">Trusted by founders, fashion houses, and rising brands.</p>
-          <div class="mt-6 grid grid-cols-3 gap-4">
-            <div class="frame ring-1 ring-neutral-200 bg-offwhite p-4 grid place-items-center"><span class="font-serif text-sm text-neutral-500">Averra</span></div>
-            <div class="frame ring-1 ring-neutral-200 bg-offwhite p-4 grid place-items-center"><span class="font-serif text-sm text-neutral-500">Maison</span></div>
-            <div class="frame ring-1 ring-neutral-200 bg-offwhite p-4 grid place-items-center"><span class="font-serif text-sm text-neutral-500">Seraph</span></div>
-            <div class="frame ring-1 ring-neutral-200 bg-offwhite p-4 grid place-items-center"><span class="font-serif text-sm text-neutral-500">Noir</span></div>
-            <div class="frame ring-1 ring-neutral-200 bg-offwhite p-4 grid place-items-center"><span class="font-serif text-sm text-neutral-500">Linea</span></div>
-            <div class="frame ring-1 ring-neutral-200 bg-offwhite p-4 grid place-items-center"><span class="font-serif text-sm text-neutral-500">Fleur</span></div>
-          </div>
-        </div>
-        <div class="lg:col-span-7">
-          <div class="frame ring-1 ring-neutral-200 bg-offwhite p-6">
-            <div class="flex items-center justify-between">
-              <div>
-                <div class="font-serif font-semibold">Testimonials</div>
-                <div class="text-sm text-neutral-600">What partners say about SBY</div>
-              </div>
-              <div class="flex gap-2">
-                <button id="testPrev" class="p-2 rounded-full ring-1 ring-neutral-300 bg-white hover:bg-offwhite" aria-label="Previous">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
-                </button>
-                <button id="testNext" class="p-2 rounded-full ring-1 ring-neutral-300 bg-white hover:bg-offwhite" aria-label="Next">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
-                </button>
-              </div>
-            </div>
-            <div class="mt-4">
-              <div class="testSlide">
-                <blockquote class="text-neutral-800 text-lg leading-relaxed">“SBY turned our launch into a moment. Strategic, stylish, and results-driven.”</blockquote>
-                <div class="mt-3 text-sm text-neutral-600">CMO, Beauty Start-up</div>
-              </div>
-              <div class="testSlide hidden">
-                <blockquote class="text-neutral-800 text-lg leading-relaxed">“The editorial polish elevated everything—from social to our lookbook.”</blockquote>
-                <div class="mt-3 text-sm text-neutral-600">Creative Director, Fashion Brand</div>
-              </div>
-              <div class="testSlide hidden">
-                <blockquote class="text-neutral-800 text-lg leading-relaxed">“Events that feel luxurious and deliver ROI. A rare combo.”</blockquote>
-                <div class="mt-3 text-sm text-neutral-600">Founder, Lifestyle Label</div>
-              </div>
-              <div class="mt-4 flex gap-1">
-                <span class="testDot h-1.5 w-6 rounded-full bg-neutral-500/70"></span>
-                <span class="testDot h-1.5 w-6 rounded-full bg-neutral-300"></span>
-                <span class="testDot h-1.5 w-6 rounded-full bg-neutral-300"></span>
-              </div>
-            </div>
-          </div>
+      <div class="text-center max-w-3xl mx-auto mb-12">
+        <h2 class="font-display text-3xl md:text-4xl tracking-tight title-depth">Clients & Partners</h2>
+        <p class="text-neutral-600 mt-3">Trusted by founders, creatives, and rising brands.</p>
+      </div>
 
-          <!-- Instagram demo -->
-          <div class="mt-6 frame ring-1 ring-neutral-200 bg-white p-6">
-            <div class="flex items-center justify-between">
-              <div class="font-serif font-semibold">Instagram (Demo)</div>
-              <a class="text-hotpink link-underline" href="#" onclick="alert('This is a styled preview — live Instagram isn’t connected in this Canva Code demo.'); return false;">@sby.agency</a>
-            </div>
-            <div class="mt-4 grid grid-cols-3 gap-2">
-              <div class="media aspect-square"></div>
-              <div class="media aspect-square"></div>
-              <div class="media aspect-square"></div>
-              <div class="media aspect-square"></div>
-              <div class="media aspect-square"></div>
-              <div class="media aspect-square"></div>
-            </div>
-            <p class="text-xs text-neutral-500 mt-3">Note: Live Instagram integration isn’t supported here. This is a styled preview.</p>
-          </div>
+      <div class="grid sm:grid-cols-3 lg:grid-cols-5 gap-4 mb-16">
+        <div class="frame ring-1 ring-neutral-200 bg-offwhite p-6 text-center">
+          <span class="font-serif text-sm text-neutral-600">Myrie Media</span>
+        </div>
+        <div class="frame ring-1 ring-neutral-200 bg-offwhite p-6 text-center">
+          <span class="font-serif text-sm text-neutral-600">Care4MyHealth</span>
+        </div>
+        <div class="frame ring-1 ring-neutral-200 bg-offwhite p-6 text-center">
+          <span class="font-serif text-sm text-neutral-600">Dr. Elhemat Med Spa</span>
+        </div>
+        <div class="frame ring-1 ring-neutral-200 bg-offwhite p-6 text-center">
+          <span class="font-serif text-sm text-neutral-600">Mr. Purple</span>
+        </div>
+        <div class="frame ring-1 ring-neutral-200 bg-offwhite p-6 text-center">
+          <span class="font-serif text-sm text-neutral-600">NYX</span>
+        </div>
+        <div class="frame ring-1 ring-neutral-200 bg-offwhite p-6 text-center">
+          <span class="font-serif text-sm text-neutral-600">Uncle Nearest</span>
+        </div>
+        <div class="frame ring-1 ring-neutral-200 bg-offwhite p-6 text-center">
+          <span class="font-serif text-sm text-neutral-600">JMG Magazine</span>
+        </div>
+        <div class="frame ring-1 ring-neutral-200 bg-offwhite p-6 text-center">
+          <span class="font-serif text-sm text-neutral-600">The Model Experience</span>
+        </div>
+        <div class="frame ring-1 ring-neutral-200 bg-offwhite p-6 text-center">
+          <span class="font-serif text-sm text-neutral-600">Image Magazine</span>
+        </div>
+        <div class="frame ring-1 ring-neutral-200 bg-offwhite p-6 text-center">
+          <span class="font-serif text-sm text-neutral-600">Spanx</span>
         </div>
       </div>
-    </div>
-  </section>
 
-  <!-- EVENTS & SHOWROOM -->
-  <section id="events" class="py-20 md:py-28">
-    <div class="container">
-      <div class="grid lg:grid-cols-12 gap-8 items-center">
-        <div class="lg:col-span-6 reveal">
-          <h2 class="font-display text-3xl md:text-4xl tracking-tight">Events & Showroom</h2>
-          <p class="text-neutral-700 mt-4">From curated rentals to high-impact activations—we design brand moments that linger.</p>
-          <ul class="mt-4 space-y-2 text-neutral-700">
-            <li>Showroom Rentals: Curated fashion pieces</li>
-            <li>Influencer Dinners & Activations</li>
-            <li>Custom Brand Experiences</li>
-          </ul>
-          <button class="mt-6 inline-flex items-center gap-2 bg-hotpinkgrad text-white px-6 py-3 rounded-full shadow-glow hover:translate-y-[-1px]" onclick="scrollToContact('Events & Showroom')">Request Availability</button>
-        </div>
-        <div class="lg:col-span-6 reveal">
-          <div class="grid grid-cols-2 gap-4">
-            <div class="frame p-3 ring-1 ring-neutral-200 bg-white"><div class="media aspect-[5/4]"></div></div>
-            <div class="frame p-3 ring-1 ring-neutral-200 bg-white"><div class="media aspect-[5/4]"></div></div>
-            <div class="frame p-3 ring-1 ring-neutral-200 bg-white"><div class="media aspect-[5/4]"></div></div>
-            <div class="frame p-3 ring-1 ring-neutral-200 bg-white"><div class="media aspect-[5/4]"></div></div>
+      <!-- Testimonials -->
+      <div class="frame ring-1 ring-neutral-200 bg-offwhite p-8 max-w-4xl mx-auto">
+        <div class="flex items-center justify-between mb-6">
+          <div>
+            <div class="font-serif font-semibold text-xl">Client Testimonials</div>
+            <div class="text-sm text-neutral-600">What partners say about SBY</div>
           </div>
+          <div class="flex gap-2">
+            <button id="testPrev" class="p-2 rounded-full ring-1 ring-neutral-300 bg-white hover:bg-offwhite" aria-label="Previous">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+            </button>
+            <button id="testNext" class="p-2 rounded-full ring-1 ring-neutral-300 bg-white hover:bg-offwhite" aria-label="Next">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+            </button>
+          </div>
+        </div>
+        
+        <div class="testSlide">
+          <blockquote class="text-neutral-800 text-xl leading-relaxed">"SBY turned our launch into a moment. Strategic, stylish, and results-driven. The team's ability to blend high-fashion aesthetics with business strategy is unmatched."</blockquote>
+          <div class="mt-4 text-neutral-600">— CMO, Beauty Start-up</div>
+        </div>
+        <div class="testSlide hidden">
+          <blockquote class="text-neutral-800 text-xl leading-relaxed">"The editorial polish elevated everything—from social media to our lookbook. Working with SBY feels like having an in-house creative director with industry connections."</blockquote>
+          <div class="mt-4 text-neutral-600">— Creative Director, Fashion Brand</div>
+        </div>
+        <div class="testSlide hidden">
+          <blockquote class="text-neutral-800 text-xl leading-relaxed">"Events that feel luxurious and deliver ROI. A rare combination. SBY understands how to create experiences that generate buzz and drive business results."</blockquote>
+          <div class="mt-4 text-neutral-600">— Founder, Lifestyle Label</div>
+        </div>
+        
+        <div class="mt-6 flex gap-1">
+          <span class="testDot h-1.5 w-6 rounded-full bg-neutral-500/70"></span>
+          <span class="testDot h-1.5 w-6 rounded-full bg-neutral-300"></span>
+          <span class="testDot h-1.5 w-6 rounded-full bg-neutral-300"></span>
         </div>
       </div>
     </div>
@@ -465,27 +320,54 @@
 
         <div class="grid md:grid-cols-2 gap-10 relative">
           <div>
-            <h3 class="font-display text-3xl tracking-tight">Work With Us</h3>
-            <p class="text-neutral-700 mt-3">Tell us your goals—we’ll share a tailored plan across Marketing, Fashion, and Events.</p>
-            <ul class="mt-6 space-y-3 text-neutral-700">
-              <li class="flex items-start gap-3"><span class="font-script text-xl text-hotpink">✓</span> Strategy blueprint and timeline</li>
-              <li class="flex items-start gap-3"><span class="font-script text-xl text-hotpink">✓</span> Editorial mood + creative direction</li>
-              <li class="flex items-start gap-3"><span class="font-script text-xl text-hotpink">✓</span> Recommended deliverables + budget ranges</li>
-            </ul>
-            <p class="text-xs text-neutral-600 mt-4">This is a demo form—no emails are sent from this preview.</p>
+            <h3 class="font-display text-3xl tracking-tight">Ready to Elevate Your Brand?</h3>
+            <p class="text-neutral-700 mt-4 leading-relaxed">Let's create strategy-driven campaigns, polished visuals, and experiences that inspire and convert. We'll provide a tailored plan across Marketing, Fashion, and Events.</p>
+            
+            <div class="mt-8 space-y-4 text-neutral-700">
+              <div class="flex items-start gap-3">
+                <div class="w-6 h-6 rounded-full bg-hotpink/10 flex items-center justify-center mt-0.5">
+                  <div class="w-2 h-2 rounded-full bg-hotpink"></div>
+                </div>
+                <div>
+                  <div class="font-medium">Strategy blueprint and timeline</div>
+                  <div class="text-sm text-neutral-600">Comprehensive planning tailored to your goals</div>
+                </div>
+              </div>
+              <div class="flex items-start gap-3">
+                <div class="w-6 h-6 rounded-full bg-hotpink/10 flex items-center justify-center mt-0.5">
+                  <div class="w-2 h-2 rounded-full bg-hotpink"></div>
+                </div>
+                <div>
+                  <div class="font-medium">Editorial mood and creative direction</div>
+                  <div class="text-sm text-neutral-600">Visual identity that captures your brand essence</div>
+                </div>
+              </div>
+              <div class="flex items-start gap-3">
+                <div class="w-6 h-6 rounded-full bg-hotpink/10 flex items-center justify-center mt-0.5">
+                  <div class="w-2 h-2 rounded-full bg-hotpink"></div>
+                </div>
+                <div>
+                  <div class="font-medium">Recommended deliverables and budget ranges</div>
+                  <div class="text-sm text-neutral-600">Transparent pricing and clear project scope</div>
+                </div>
+              </div>
+            </div>
+            
+            <p class="text-xs text-neutral-600 mt-6">This is a demo form—no emails are sent from this preview.</p>
           </div>
+          
           <div class="frame ring-1 ring-neutral-200 bg-white p-6">
             <form id="demoForm" class="space-y-4">
               <div>
-                <label class="text-sm text-neutral-600">Full Name</label>
+                <label class="text-sm text-neutral-600 font-medium">Full Name</label>
                 <input required type="text" class="mt-1 w-full rounded-xl ring-1 ring-neutral-300 focus:ring-hotpink focus:outline-none px-4 py-3 bg-offwhite" placeholder="Your name"/>
               </div>
               <div>
-                <label class="text-sm text-neutral-600">Email</label>
+                <label class="text-sm text-neutral-600 font-medium">Email</label>
                 <input required type="email" class="mt-1 w-full rounded-xl ring-1 ring-neutral-300 focus:ring-hotpink focus:outline-none px-4 py-3 bg-offwhite" placeholder="you@example.com"/>
               </div>
               <div>
-                <label class="text-sm text-neutral-600">Area of Interest</label>
+                <label class="text-sm text-neutral-600 font-medium">Area of Interest</label>
                 <select id="interest" class="mt-1 w-full rounded-xl ring-1 ring-neutral-300 focus:ring-hotpink focus:outline-none px-4 py-3 bg-offwhite">
                   <option>Marketing & Campaigns</option>
                   <option>Fashion Styling & Showroom</option>
@@ -493,21 +375,26 @@
                 </select>
               </div>
               <div>
-                <label class="text-sm text-neutral-600">Project Notes</label>
-                <textarea rows="4" class="mt-1 w-full rounded-xl ring-1 ring-neutral-300 focus:ring-hotpink focus:outline-none px-4 py-3 bg-offwhite" placeholder="Tell us your goals & timeline"></textarea>
+                <label class="text-sm text-neutral-600 font-medium">Project Notes</label>
+                <textarea rows="4" class="mt-1 w-full rounded-xl ring-1 ring-neutral-300 focus:ring-hotpink focus:outline-none px-4 py-3 bg-offwhite" placeholder="Tell us your goals and timeline"></textarea>
               </div>
-              <button class="w-full bg-hotpinkgrad text-white py-3 rounded-xl shadow-glow hover:translate-y-[-1px] transition-transform">Submit Request (Demo)</button>
+              <button class="w-full bg-hotpinkgrad text-white py-3 rounded-xl shadow-glow hover:translate-y-[-1px] transition-transform font-medium">Submit Request (Demo)</button>
             </form>
+            
             <div id="toast" class="hidden mt-3 bg-white rounded-xl p-4 ring-1 ring-neutral-200 shadow-soft">
               <div class="flex items-start gap-3">
-                <div class="w-8 h-8 rounded-full grid place-items-center bg-hotpink/10 text-hotpink">✓</div>
+                <div class="w-8 h-8 rounded-full grid place-items-center bg-hotpink/10 text-hotpink font-bold">✓</div>
                 <div>
                   <div class="font-serif font-semibold">Request received</div>
-                  <div class="text-sm text-neutral-600">Thanks! We’ll follow up shortly. (Demo only)</div>
+                  <div class="text-sm text-neutral-600">Thanks! We'll follow up shortly. (Demo only)</div>
                 </div>
               </div>
             </div>
-            <div class="mt-4 text-xs text-neutral-500">Prefer email? <a href="mailto:hello@sby.agency" class="text-hotpink link-underline">hello@sby.agency</a></div>
+            
+            <div class="mt-4 text-xs text-neutral-500">
+              Prefer email? <a href="mailto:hello@sby.agency" class="text-hotpink link-underline">hello@sby.agency</a><br>
+              Follow us: <a href="https://instagram.com/styledbyyvonne" target="_blank" rel="noopener noreferrer" class="text-hotpink link-underline">@styledbyyvonne</a> • <a href="https://instagram.com/sbyagency" target="_blank" rel="noopener noreferrer" class="text-hotpink link-underline">@sbyagency</a>
+            </div>
           </div>
         </div>
       </div>
@@ -554,7 +441,7 @@
       });
     });
 
-    // Hero: simple fade carousel (no layout shifts)
+    // Hero: simple fade carousel
     const slides = Array.from(document.querySelectorAll('#heroSlides .slide'));
     const dots = Array.from(document.querySelectorAll('.dot'));
     let heroIndex = 0, heroTimer = null;
@@ -609,5 +496,5 @@
     document.getElementById('ctaConsultM')?.addEventListener('click', () => scrollToContact());
     document.getElementById('heroConsult')?.addEventListener('click', () => scrollToContact());
   </script>
-<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'980c5a13f6083233',t:'MTc1ODE1MTQxMS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'982e8ce697677c6b',t:'MTc1ODUxMDAwOS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
